@@ -206,7 +206,7 @@ function outsideClick(e) {
 // );
 
 const toggleSwitch = document.querySelector(
-  '.theme-switch input[type="checkbox"]'
+  '.theme-change input[type="checkbox"]'
 );
 
 function switchTheme(e) {
