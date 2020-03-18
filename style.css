@@ -132,15 +132,6 @@ ul {
   color: rgba(255, 255, 255, 0.87);
 }
 
-.title h1 {
-  font-size: 4rem;
-}
-
-.title h1,
-.text h4 {
-  font-weight: lighter;
-}
-
 .underline {
   display: inline-block;
   border-bottom: 2px solid var(--underline-color);
@@ -156,7 +147,6 @@ ul {
 
 .skill {
   padding: 10px;
-  text-align: center;
 }
 
 .skill li {
@@ -206,7 +196,6 @@ b {
 
 .projects-top {
   margin-bottom: 20px;
-  text-align: center;
 }
 .projects {
   background-size: cover;
@@ -466,6 +455,26 @@ input:checked + .slider:before {
   .banner-content .logo {
     height: 140px;
     width: 140px;
+  }
+
+  .showcase {
+    text-align: center;
+  }
+
+  .showcase .underline {
+    text-align: center;
+  }
+
+  .skill > div {
+    text-align: center;
+  }
+
+  .projects-top > div {
+    text-align: center;
+  }
+
+  .projects-content {
+    text-align: center;
   }
 }
 
