@@ -169,7 +169,6 @@ b {
   margin-bottom: 20px;
 }
 .projects {
-  background-image: url("img/dxi.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -180,6 +179,34 @@ b {
   display: inline-block;
   position: relative;
   margin-bottom: 10px;
+}
+
+.projects-dxi {
+  background-image: url("img/dxi.JPG");
+}
+
+.projects-sn {
+  background-image: url("img/bioalpha.JPG");
+}
+
+.projects-wbd {
+  background-image: url("img/dassa.JPG");
+}
+
+.projects-cs {
+  background-image: url("img/citraswarna.JPG");
+}
+
+.projects-fotoins {
+  background-image: url("img/fotoins.JPG");
+}
+
+.projects-oto {
+  background-image: url("img/otocerdas.JPG");
+}
+
+.projects-mgs {
+  background-image: url("img/mgs.JPG");
 }
 
 .projects-content {

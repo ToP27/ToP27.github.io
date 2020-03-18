@@ -194,16 +194,18 @@ function outsideClick(e) {
   }
 }
 
-// $(
-//   (window.onload = function() {
-//     var scroll = $(this).scrollTop();
+// Jquery to smooth scroll by id
+$('a[href*="#"]').on("click", function(e) {
+  e.preventDefault();
 
-//     $(".banner").animate(
-//       { opacity: "1", transition: "opacity 0.5s ease-in-out" },
-//       1000
-//     );
-//   })
-// );
+  $("html, body").animate(
+    {
+      scrollTop: $($(this).attr("href")).offset().top
+    },
+    500,
+    "linear"
+  );
+});
 
 const toggleSwitch = document.querySelector(
   '.theme-change input[type="checkbox"]'
