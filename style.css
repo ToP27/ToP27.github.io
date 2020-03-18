@@ -156,6 +156,7 @@ ul {
 
 .skill {
   padding: 10px;
+  text-align: center;
 }
 
 .skill li {
@@ -205,6 +206,7 @@ b {
 
 .projects-top {
   margin-bottom: 20px;
+  text-align: center;
 }
 .projects {
   background-size: cover;
