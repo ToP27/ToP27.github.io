@@ -355,6 +355,15 @@ footer {
   color: rgba(255, 255, 255, 0.87);
 }
 
+.title h1 {
+  font-size: 4rem;
+}
+
+.title h1,
+.text h4 {
+  font-weight: lighter;
+}
+
 .theme-change-wrapper {
   display: flex;
   align-items: center;
